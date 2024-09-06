@@ -1,7 +1,7 @@
 export default {
     title: "Hari Batik Nasional 2024",
     titleSuffix: " | Acara Batik Terbesar di Indonesia",
-    description: "Hari Batik Nasional 2024, Melestarikan budaya luhur bangsa yaitu batik",
+    description: " Keserasian Berbusana Kebaya dan Batik untuk Wanita",
     defaultOgImage: "./defaultog.jpg",
     latestPosts: 3,
     postsPerPage: 3,
