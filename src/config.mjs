@@ -2,7 +2,7 @@ export default {
     title: "Hari Batik Nasional 2024",
     titleSuffix: " | Acara Batik Terbesar di Indonesia",
     description: " Keserasian Berbusana Kebaya dan Batik untuk Wanita",
-    defaultOgImage: "./defaultog.jpg",
+    defaultOgImage: "https://haribatiknasional2024.vercel.app/_astro/slide-3.2ba11e6f_2lGWz3.webp",
     latestPosts: 3,
     postsPerPage: 3,
     url: "https://haribatiknasional2024.vercel.app",
