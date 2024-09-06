@@ -1,11 +1,11 @@
 export default {
-    title: "Homepage",
-    titleSuffix: " | Pacamara ☕",
-    description: "Aromatic brew, pure indulgence, exquisite satisfaction.Default description",
+    title: "Hari Batik Nasional 2024",
+    titleSuffix: " | Acara Batik Terbesar di Indonesia",
+    description: "Hari Batik Nasional 2024, Melestarikan budaya luhur bangsa yaitu batik",
     defaultOgImage: "./defaultog.jpg",
     latestPosts: 3,
     postsPerPage: 3,
-    url: "https://pacamara-astro-6y7xr.kinsta.page",
+    url: "https://haribatiknasional2024.vercel.app",
     social: {
         'dribbble': false,
         'facebook': false,
