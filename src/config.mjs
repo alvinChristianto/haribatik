@@ -10,8 +10,8 @@ export default {
         'dribbble': false,
         'facebook': false,
         'github': 'https://github.com/palmiak',
-        'instagram': false,
-        'mastodon': false,
+        'instagram': 'https://www.instagram.com/ppbi_sekarjagad/',
+        'youtube': 'https://youtu.be/-fXjG5mLMZE?si=PQjV0PQYmWtvrjRm',
         'pinterest': false,
         'skype': false,
         'twitter': 'https://twitter.com/palmiak_fp'

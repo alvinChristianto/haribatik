@@ -2,6 +2,12 @@
 import { Image } from "astro:assets";
 
 import logoImage from "../../assets/logo.jpg";
+import igpng from "../../assets/igpng.png";
+import youtube from "../../assets/youtubepng.png";
+import SocialIcon from "./SocialIcon.astro";
+
+import { Icon } from "astro-icon";
+import config from "../../config.mjs";
 
 import slide1 from "../../assets/slide-1.jpg";
 import slide2 from "../../assets/slide-2.jpg";
@@ -11,16 +17,61 @@ import slide5 from "../../assets/slide-5.jpg";
 ---
 
 <section
-  class="container mx-auto max-w-screen-xl px-7 py-10 lg:min-h-[500px] content-center font-pacamara prose lg:prose-xl prose-headings:font-pacamara-space prose-headings:mt-5 prose-headings:text-pacamara-dark prose-headings:font-bold lg:prose-h1:text-7xl prose-h1:mt-0 prose-heading:transition-all prose-heading:duration-300 prose-p:text-pacamara-primary/50 dark:prose-p:text-white/70 prose-p:mb-0 prose-p:transition-all prose-p:duration-300 prose-img:mt-0 prose-img:mb-0 dark:prose-headings:text-white"
+  class="container mx-auto max-w-screen-xl px-7 py-10 lg:min-h-[200px] content-center font-pacamara prose lg:prose-xl prose-headings:font-pacamara-space prose-headings:mt-5 prose-headings:text-pacamara-dark prose-headings:font-bold lg:prose-h1:text-7xl prose-h1:mt-0 prose-heading:transition-all prose-heading:duration-300 prose-p:text-pacamara-primary/50 dark:prose-p:text-white/70 prose-p:mb-0 prose-p:transition-all prose-p:duration-300 prose-img:mt-0 prose-img:mb-0 dark:prose-headings:text-white"
 >
   <!-- <Image src={logoImage} width={200} alt="" loading="eager" decoding="sync" class="relative w-[150px] lg:w-[220px] rounded-[15px] image-shine"  /> -->
   <!-- <p>
         Aromatic brew, pure indulgence, exquisite satisfaction.
     </p> -->
   <div class="">
-    <h1><span class="flex items-center justify-center "><span>Hari Batik Nasional 2024</span></span></h1>
-    <p class="flex items-center justify-center  capitalize"> Keserasian Berbusana Kebaya dan Batik untuk Wanita</p>
+    <h1>
+      <span class="flex items-center justify-center"
+        ><span>Hari Batik Nasional 2024</span></span
+      >
+    </h1>
+    <p class="flex items-center justify-center capitalize">
+      Keserasian Berbusana Kebaya dan Batik untuk Wanita
+    </p>
   </div>
+  <div class="flex items-center justify-center">
+    <ul
+      class="list-none text-[14px] font-normal flex flex-initial flex-row content-center items-center gap-x-[35px]"
+    >
+      <li>
+        <a href="https://youtu.be/-fXjG5mLMZE?si=PQjV0PQYmWtvrjRm" target="_blank">
+         
+          <Image
+            src={youtube}
+            width={200}
+            alt=""
+            loading="eager"
+            decoding="sync"
+            class="relative w-[40px] lg:w-[50px] rounded-[15px] image-shine"
+          />
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/ppbi_sekarjagad/" target="_blank">
+         
+          <Image
+            src={igpng}
+            width={200}
+            alt=""
+            loading="eager"
+            decoding="sync"
+            class="relative w-[40px] lg:w-[50px] rounded-[15px] image-shine"
+          />
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<section
+  class="container mx-auto max-w-screen-xl flex items-center justify-center font-pacamara prose lg:prose-xl prose-headings:font-pacamara-space prose-headings:mt-5 prose-headings:text-pacamara-dark prose-headings:font-bold lg:prose-h1:text-7xl prose-h1:mt-0 prose-heading:transition-all prose-heading:duration-300 prose-p:text-pacamara-primary/50 dark:prose-p:text-white/70 prose-p:mb-0 prose-p:transition-all prose-p:duration-300 prose-img:mt-0 prose-img:mb-0 dark:prose-headings:text-white"
+>
 </section>
 
 <section class="my-10 flex justify-center gap-5 overflow-hidden py-4 sm:gap-10">
